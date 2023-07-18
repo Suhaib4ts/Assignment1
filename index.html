@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <label for="company">Company:</label>
+<select id="company" onchange="populateModels()">
+  <option value="">Select a company</option>
+</select>
+
+<label for="model">Model:</label>
+<select id="model" onchange="displayCarDetails()">
+  <option value="">Select a model</option>
+</select>
+
+<div id="carDetails"></div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
